@@ -1,0 +1,42 @@
+page-comida {
+    .bg{
+        font-family: 'Gloria Hallelujah', cursive;
+         background-image: url('../assets/imgs/bg_comidaPage.png');
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: contain;
+          background-size: cover !important;
+
+
+      }
+      .fuente{
+        
+        color:#ffff;
+      }
+      .bg-sendMessage{
+          font-weight: bold;
+          color: #045ED9;
+      }
+
+      .bg-menu{
+        background-image: url('../assets/imgs/bg_Menu.png');
+        repeat: no-repeat;
+        position: top;
+        box-shadow: 2px 2px 10px #666;   
+      }
+      .botones{
+        background-color:#000000;
+        color: #ffffff;
+        opacity: 0.5;
+       }
+       .botones:hover {
+        background-color:#F5735A;
+        color: #ffffff;
+        opacity: 1.0;
+      }
+
+      .abajo{
+        bottom: 0;
+        position: bottom;
+      }
+}

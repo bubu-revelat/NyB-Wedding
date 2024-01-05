@@ -1,0 +1,7 @@
+{
+  "name": "NBWedding",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

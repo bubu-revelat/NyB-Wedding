@@ -1,0 +1,160 @@
+page-home {
+    .bg{
+  
+      background-image: url('../assets/imgs/bg_login.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      background-size: cover !important;
+    }
+
+    .estiloCorazon{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      background-size: cover !important;
+      margin-top: 7.5rem;
+      margin-left: 4rem;
+      max-width: 6rem;
+    }
+  
+    .title-login {
+      position: absolute;
+      text-align: center;
+    }
+    #titulo-login{
+      font-weight: bold;
+      margin-top: 2.5rem;
+    }
+  
+    #parrafo-login{
+      font-weight: 100;
+      margin-top: 6.5rem;
+    }
+  
+    #iconIzq{
+      padding-right:1rem !important;
+    }
+  
+    #googleButton{
+      background-color: #dd4b39;
+      padding-top: 1.8rem !important;
+      padding-bottom: 1.8rem !important;
+  
+    }
+  
+    #facebookButton{
+      background-color: #3b5998;
+      padding-top: 1.8rem !important;
+      padding-bottom: 1.8rem !important;
+  
+    }
+    .corazonAnimado{
+      animation: animationFrames linear 4s;
+      animation-iteration-count: infinite;
+      transform-origin: 50% 50%;
+      -webkit-animation: animationFrames linear 4s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-transform-origin: 50% 50%;
+      -moz-animation: animationFrames linear 4s;
+      -moz-animation-iteration-count: infinite;
+      -moz-transform-origin: 50% 50%;
+      -o-animation: animationFrames linear 4s;
+      -o-animation-iteration-count: infinite;
+      -o-transform-origin: 50% 50%;
+      -ms-animation: animationFrames linear 4s;
+      -ms-animation-iteration-count: infinite;
+      -ms-transform-origin: 50% 50%;
+    }
+    
+    @keyframes animationFrames{
+      0% {
+        transform:  translate(-26px,-22px)  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+      }
+      29% {
+        transform:  translate(-25px,-57px)  scaleX(1.17) scaleY(1.17) ;
+      }
+      50% {
+        transform:  translate(-27px,-38px)  rotate(1deg) scaleX(1.30) scaleY(1.29) ;
+      }
+      80% {
+        transform:  translate(-29px,-10px)  rotate(1deg) scaleX(1.12) scaleY(1.12) ;
+      }
+      100% {
+        transform:  translate(-26px,-22px)  rotate(1deg) scaleX(1.00) scaleY(1.00) ;
+      }
+    }
+    
+    @-moz-keyframes animationFrames{
+      0% {
+        -moz-transform:  translate(-26px,-22px)  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+      }
+      29% {
+        -moz-transform:  translate(-25px,-57px)  scaleX(1.17) scaleY(1.17) ;
+      }
+      50% {
+        -moz-transform:  translate(-27px,-38px)  rotate(1deg) scaleX(1.30) scaleY(1.29) ;
+      }
+      80% {
+        -moz-transform:  translate(-29px,-10px)  rotate(1deg) scaleX(1.12) scaleY(1.12) ;
+      }
+      100% {
+        -moz-transform:  translate(-26px,-22px)  rotate(1deg) scaleX(1.00) scaleY(1.00) ;
+      }
+    }
+    
+    @-webkit-keyframes animationFrames {
+      0% {
+        -webkit-transform:  translate(-26px,-22px)  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+      }
+      29% {
+        -webkit-transform:  translate(-25px,-57px)  scaleX(1.17) scaleY(1.17) ;
+      }
+      50% {
+        -webkit-transform:  translate(-27px,-38px)  rotate(1deg) scaleX(1.30) scaleY(1.29) ;
+      }
+      80% {
+        -webkit-transform:  translate(-29px,-10px)  rotate(1deg) scaleX(1.12) scaleY(1.12) ;
+      }
+      100% {
+        -webkit-transform:  translate(-26px,-22px)  rotate(1deg) scaleX(1.00) scaleY(1.00) ;
+      }
+    }
+    
+    @-o-keyframes animationFrames {
+      0% {
+        -o-transform:  translate(-26px,-22px)  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+      }
+      29% {
+        -o-transform:  translate(-25px,-57px)  scaleX(1.17) scaleY(1.17) ;
+      }
+      50% {
+        -o-transform:  translate(-27px,-38px)  rotate(1deg) scaleX(1.30) scaleY(1.29) ;
+      }
+      80% {
+        -o-transform:  translate(-29px,-10px)  rotate(1deg) scaleX(1.12) scaleY(1.12) ;
+      }
+      100% {
+        -o-transform:  translate(-26px,-22px)  rotate(1deg) scaleX(1.00) scaleY(1.00) ;
+      }
+    }
+    
+    @-ms-keyframes animationFrames {
+      0% {
+        -ms-transform:  translate(-26px,-22px)  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+      }
+      29% {
+        -ms-transform:  translate(-25px,-57px)  scaleX(1.17) scaleY(1.17) ;
+      }
+      50% {
+        -ms-transform:  translate(-27px,-38px)  rotate(1deg) scaleX(1.30) scaleY(1.29) ;
+      }
+      80% {
+        -ms-transform:  translate(-29px,-10px)  rotate(1deg) scaleX(1.12) scaleY(1.12) ;
+      }
+      100% {
+        -ms-transform:  translate(-26px,-22px)  rotate(1deg) scaleX(1.00) scaleY(1.00) ;
+      }
+    }
+  
+  }

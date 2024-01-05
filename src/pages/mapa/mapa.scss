@@ -1,0 +1,38 @@
+page-mapa {
+    #map_canvas{
+        height:90%;
+    }
+
+    .img2
+    {
+      position:absolute;
+      z-index:-3;
+    }
+
+    .bg{
+  
+        background-image: url('../assets/imgs/bg_mapPage.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-size: cover !important;
+      }
+    
+      .botones{
+        background-color:#000000;
+        color: #ffffff;
+        opacity: 0.5;
+       }
+       .botones:hover {
+        background-color:#F5735A;
+        color: #ffffff;
+        opacity: 1.0;
+      }
+      .fuente{
+        font-family: 'Gloria Hallelujah', cursive;
+        color:#ffffff !important;
+        text-align: center
+      }
+
+
+}

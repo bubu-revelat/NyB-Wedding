@@ -1,0 +1,68 @@
+<!--
+  Generated template for the DepositPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content padding class="bg">
+  <ion-col style="text-align: center;">
+    <ion-grid >
+      <ion-row>
+        <ion-col>
+          <img class="img1" src="../../assets/imgs/planeta.png">
+          <img class="img2 moveWind1" src="../../assets/imgs/wind_1.png">
+          <img class="img2 moveWind2" src="../../assets/imgs/wind_2.png">
+          <img class="img2 moveWind3" src="../../assets/imgs/wind_3.png">
+          <img class="img2 moveWind4" src="../../assets/imgs/wind_4.png">
+          <img class="img2 {{movimiento}}" src="../../assets/imgs/avion.png">
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+
+        </ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col class="card">
+              <ion-card class="page" style="border-color: #000000;border-radius: 2%;" >
+                  <ion-card-header class="page" style="font-weight: bold;">
+                      <h2 >¡Muchas gracias por tu regalo!<br></h2>
+                      <h4>Para llevarte el CBU apreta el botón.</h4>
+                  </ion-card-header>
+                  <ion-card-content class="page" style="text-align: center; font-weight: bold; font-size:20px" >
+                      <ion-item style="border-radius: 20px;border: 2px solid black">
+                          <ion-label style="font-size:22px !important; color: red; text-align: center;"  stacked>Banco ICBC</ion-label >
+                          <ion-input style="font-size:16px !important; text-align: center;" readonly="true" placeholder={{cbu}}></ion-input>
+                          <ion-input style="font-size:16px !important; text-align: center;" readonly="true" placeholder={{datos}}></ion-input>
+                          <ion-input style="font-size:16px !important; text-align: center;" readonly="true" placeholder={{dni}}></ion-input>
+                          <ion-input style="font-size:16px !important; text-align: center;" readonly="true" placeholder={{cuenta}}></ion-input>
+                     </ion-item>
+                  </ion-card-content>
+                  <button class="botonPrincipal" color="dark"  ion-button round outline (click)="copyClipboard()">Copiar!</button>
+              </ion-card>
+          </ion-col>
+        </ion-row>
+      <!-- <ion-row>
+        <ion-col>
+        </ion-col>
+        <ion-col col-10>
+           <ion-item class="inputCbu">
+                <ion-label color="primary" stacked>Banco Galicia</ion-label >
+                <ion-input readonly="true" placeholder={{cbu}}></ion-input>
+           </ion-item>
+        </ion-col>
+        <ion-col>
+        
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+            <button color="dark" ion-button round outline class="botonCopy" (click)="copyClipboard()">Copiar!</button>
+        </ion-col>
+      </ion-row>-->
+    </ion-grid>
+  </ion-col> 
+  <ion-fab left bottom>
+    <button ion-fab navPop class="botones"><ion-icon name="arrow-back"></ion-icon></button>
+  </ion-fab>
+</ion-content>

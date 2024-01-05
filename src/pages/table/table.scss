@@ -1,0 +1,28 @@
+page-table {
+    .bg{
+  
+        background-image: url('../assets/imgs/bg_mesaPage.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-size: cover !important;
+      }
+
+      .fuente{
+        font-family: 'Gloria Hallelujah', cursive;
+        color:#ffffff !important;
+        font-size: 35px;
+        padding-top: 4rem !important;
+      }
+      .botones{
+        background-color:#000000;
+        color: #ffffff;
+        opacity: 0.5;
+       }
+       .botones:hover {
+        background-color:#F5735A;
+        color: #ffffff;
+        opacity: 1.0;
+      }
+
+}

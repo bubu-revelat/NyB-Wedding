@@ -1,0 +1,115 @@
+page-landpage {
+    .bg{
+  
+        background-image: url('../assets/imgs/bg_landPage_option2.png') !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-size: cover !important;
+      }
+
+    .botones{
+     background-color:#000000;
+     color: #ffffff;
+    }
+    .botones:hover {
+      background-color:#F5735A;
+      color: #ffffff;
+      opacity: 1.0;
+    }
+
+    .page {
+        background-color: #f8f5de;
+        background-image: linear-gradient(to right, rgba(150, 149, 148, 0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);
+        box-shadow: inset 0 0 75px rgba(255,210,0,0.3), inset 0 0 20px rgba(231, 222, 182, 0.4), inset 0 0 30px rgba(199, 188, 175, 0.8);
+        color: rgba(0,0,0,0.5);
+        font-family: 'Gloria Hallelujah', cursive;
+        letter-spacing: 0.05em;
+        line-height: 1.8;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .emoji {
+        font-family: "Symbola"
+    }
+
+
+    .botonPrincipal{
+      animation: animationBoton linear 2s;
+      animation-iteration-count: infinite;
+      transform-origin: 50% 50%;
+      -webkit-animation: animationBoton linear 2s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-transform-origin: 50% 50%;
+      -moz-animation: animationBoton linear 2s;
+      -moz-animation-iteration-count: infinite;
+      -moz-transform-origin: 50% 50%;
+      -o-animation: animationBoton linear 2s;
+      -o-animation-iteration-count: infinite;
+      -o-transform-origin: 50% 50%;
+      -ms-animation: animationBoton linear 2s;
+      -ms-animation-iteration-count: infinite;
+      -ms-transform-origin: 50% 50%;
+    }
+    
+    @keyframes animationBoton{
+      0% {
+        transform:  scaleX(1.00) scaleY(1.00) ;
+      }
+      50% {
+        transform:  scaleX(1.25) scaleY(1.25) ;
+      }
+      100% {
+        transform:  scaleX(1.00) scaleY(1.00) ;
+      }
+    }
+    
+    @-moz-keyframes animationBoton{
+      0% {
+        -moz-transform:  scaleX(1.00) scaleY(1.00) ;
+      }
+      50% {
+        -moz-transform:  scaleX(1.25) scaleY(1.25) ;
+      }
+      100% {
+        -moz-transform:  scaleX(1.00) scaleY(1.00) ;
+      }
+    }
+    
+    @-webkit-keyframes animationBoton {
+      0% {
+        -webkit-transform:  scaleX(1.00) scaleY(1.00) ;
+      }
+      50% {
+        -webkit-transform:  scaleX(1.25) scaleY(1.25) ;
+      }
+      100% {
+        -webkit-transform:  scaleX(1.00) scaleY(1.00) ;
+      }
+    }
+    
+    @-o-keyframes animationBoton {
+      0% {
+        -o-transform:  scaleX(1.00) scaleY(1.00) ;
+      }
+      50% {
+        -o-transform:  scaleX(1.25) scaleY(1.25) ;
+      }
+      100% {
+        -o-transform:  scaleX(1.00) scaleY(1.00) ;
+      }
+    }
+    
+    @-ms-keyframes animationBoton {
+      0% {
+        -ms-transform:  scaleX(1.00) scaleY(1.00) ;
+      }
+      50% {
+        -ms-transform:  scaleX(1.25) scaleY(1.25) ;
+      }
+      100% {
+        -ms-transform:  scaleX(1.00) scaleY(1.00) ;
+      }
+    }
+
+}
